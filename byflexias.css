@@ -118,11 +118,12 @@ body{
 }
 
 .line {
-      width: 700px;
-      height: 3px;
-      background-color: white;
-      margin: 30px auto 10px auto;
-    }
+    width: 700px;
+    height: 3px;
+    background-color: white;
+    margin: 30px auto 10px auto;
+    transition: all 0,3s ease;
+}
 
 .email-button {
     width: 80px;
@@ -152,4 +153,56 @@ body{
     font-weight: bold;
     color: #ffffff;
     margin-bottom: 20px;
+}
+
+@media (min-width: 10px) {
+    .link-button{
+        width: 150px;
     }
+
+    .line {
+        width: 200px;
+    }
+}
+
+@media (min-width: 100px) {
+    .link-button{
+        width: 200px;
+    }
+
+    .line {
+        width: 300px;
+    }
+}
+
+@media (min-width: 200px) {
+    .link-button{
+        width: 250px;
+    }
+
+    .line {
+        width: 400px;
+    }
+}
+
+@media (min-width: 500px) {
+    .line {
+        width: 500px
+    }
+}
+
+@media (min-width: 600px) {
+    .link-button {
+        width: 400px;
+    }
+
+    .line {
+        width: 550px;
+    }
+}
+
+@media (min-width: 800px) {
+    .line {
+        width: 700px;
+    }
+}
