@@ -115,6 +115,7 @@ body{
 .link-button:hover {
     background-color: rgba(0,161,248,1);
     color: white;
+    transform: scale(1.15);
 }
 
 .line {
@@ -134,13 +135,14 @@ body{
     background-color: #ffffff;
     border-radius: 8px;
     cursor: pointer;
-    transition: background 0.3s;
+    transition: all 0.3s ease;
     text-decoration: none; /* wichtig für <a> */
 }
 
     .email-button:hover {
-      background-color: rgba(0,161,248,1);
-      color: white;
+        background-color: rgba(0,161,248,1);
+        color: white;
+        transform: scale(1.15);
     }
 
 .email-button img {
